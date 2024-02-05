@@ -18,6 +18,7 @@ client = influxdb_client.InfluxDBClient(
 #initialize write_api
 write_api = client.write_api(write_options=SYNCHRONOUS)
 
+
 #create new object
 p = influxdb_client.Point("my_measurement").tag("location", "Prague").field("temperature", 25.3)
 #store to database

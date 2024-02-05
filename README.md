@@ -1,4 +1,5 @@
 # ligoPhaseOne
+<<<<<<< HEAD
 
 This repo is a demo project for a monitor app that sends data to an [InfluxDB](https://www.influxdata.com) instance on a docker container.
 This project assumes Docker is installed in the target machine.
@@ -43,3 +44,12 @@ When the script ends you should see one new data point on InfluxDB GUI.
 ***
 
 (c) Anika - 2023
+=======
+steps to use github:
+git clone (for new device)
+git status (to check status of branch)
+git pull (brings remote to local)
+git push (sends local to remote)
+git commit 
+git add
+>>>>>>> 8e9946d (Send CPU and RAM data into bucketPhaseOne every second)
